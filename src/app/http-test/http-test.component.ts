@@ -6,6 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./http-test.component.css']
 })
 export class HttpTestComponent implements OnInit {
+  getData: string;
+  getPost: string;
 
   constructor() { }
 
