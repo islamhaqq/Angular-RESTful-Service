@@ -20,7 +20,7 @@ export class HttpTestComponent implements OnInit {
     this._httpService.getCurrentTime().subscribe(
       // what to do with response data
       data => this.responseData = JSON.stringify(data),
-      // what to do with error
+      // what to do with errors
       error => alert(error),
       // what function to call upon completion
       () => console.log("Get Request completed")
