@@ -8,8 +8,8 @@ import { HttpTestService } from '../http-test.service';
   styleUrls: ['./http-test.component.css']
 })
 export class HttpTestComponent implements OnInit {
-  responseData: string;
-  responsePost: string;
+  getData: string;
+  postData: string;
 
   constructor(private _httpService: HttpTestService) {}
 
@@ -19,7 +19,7 @@ export class HttpTestComponent implements OnInit {
   testGetRequest() {
     this._httpService.getCurrentTime().subscribe(
       // what to do with response data
-      data => this.responseData = JSON.stringify(data),
+      data => this.getData = JSON.stringify(data),
       // what to do with errors
       error => alert(error),
       // what function to call upon completion
