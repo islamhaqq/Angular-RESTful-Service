@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { HttpTestComponent } from './http-test/http-test.component';
 import { ContactListComponent } from './contact-list/contact-list.component';
 
+import { HttpTestService} from './http-test.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +20,7 @@ import { ContactListComponent } from './contact-list/contact-list.component';
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [HttpTestService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import { HttpTestService } from '../http-test.service';
+
 @Component({
   selector: 'http-test',
   templateUrl: './http-test.component.html',
@@ -8,6 +10,8 @@ import { Component, OnInit } from '@angular/core';
 export class HttpTestComponent implements OnInit {
   getData: string;
   getPost: string;
+
+  testGetRequest() {}
 
   constructor() { }
 
