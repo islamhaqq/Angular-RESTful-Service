@@ -8,14 +8,16 @@ import { HttpTestService } from '../http-test.service';
   styleUrls: ['./http-test.component.css']
 })
 export class HttpTestComponent implements OnInit {
-  getData: string;
-  getPost: string;
-
-  testGetRequest() {}
-
-  constructor() { }
+  
+  constructor(private _httpService: HttpTestService) { }
 
   ngOnInit() {
   }
 
+  getData: string;
+  getPost: string;
+
+  testGetRequest() {
+    
+  }
 }
