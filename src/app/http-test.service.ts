@@ -15,5 +15,12 @@ export class HttpTestService {
   postJSON() {
     // We can validate by going to http://validate.jsontest.com/?json={"key":"value"
     var JSON_validation = JSON.stringify({"key": 5});
+    var params = 'json=' + JSON_validation;
+
+    return this._http.post(
+      'http://validate.jsontest.com',
+      params
+    )
+    .map(response => response.json());
   }
 }
