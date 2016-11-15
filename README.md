@@ -1,6 +1,14 @@
-# AJS2RESTfulService
+# Angular RESTful Service
 
 Demonstrating implementation of Angular 2 HTTP Service to connect to a RESTful service and send GET and POST requests, as well as how to handle responses
+
+* Used REST API as a testing platform (http://www.jsontest.com/)
+* Successfully made POST and GET HTTP requests
+* Attached headers to HTTP request
+* Requested a JSON Object containing Data & Time
+* Validated using a reference parser and JSON parameters
+* Deployed to Firebase using **Firebase CLI**
+* Deployed to GitHub pages using **Angular CLI**
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.16.
 
