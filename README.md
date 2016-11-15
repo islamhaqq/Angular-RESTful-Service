@@ -1,5 +1,7 @@
 # AJS2RESTfulService
 
+Demonstrating implementation of Angular 2 HTTP Service to connect to a RESTful service and send GET and POST requests, as well as how to handle responses
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.16.
 
 ## Development server
