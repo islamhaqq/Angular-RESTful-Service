@@ -4,11 +4,13 @@ Demonstrating implementation of Angular 2 HTTP Service to connect to a RESTful s
 
 * Used REST API as a testing platform (http://www.jsontest.com/)
 * Successfully made POST and GET HTTP requests
+* Successfully mapped and subscribed to observables
 * Attached headers to HTTP request
 * Requested a JSON Object containing Data & Time
+* Utilized Angular's Http and Headers libraries
 * Validated using a reference parser and JSON parameters
-* Deployed to Firebase using **Firebase CLI**
-* Deployed to GitHub pages using **Angular CLI**
+* Deployed to Firebase using Firebase CLI
+* Deployed to GitHub pages using Angular CLI
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.16.
 
