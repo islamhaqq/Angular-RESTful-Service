@@ -12,6 +12,8 @@ Demonstrating implementation of Angular 2 HTTP Service to connect to a RESTful s
 * Deployed to Firebase using Firebase CLI
 * Deployed to GitHub pages using Angular CLI
 
+**Note:** jsontest.com doesn't have SSL, so GET and POST requests don't work with the app hosted in GitHub Pages or Firebase. You have to locally host the app using Angular CLI's `ng serve`
+
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.16.
 
 ## Development server
